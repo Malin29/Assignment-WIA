@@ -1,0 +1,20 @@
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align:center;
+  justify-content: center;
+}
+
+
+.content-wrap{
+  flex:1;
+}

@@ -1,0 +1,230 @@
+h1{
+    color:rgb(42, 42, 42);
+    font-family: 'Cambria';
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.Register{
+    font-size: 12px;
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.87);
+    flex-direction: column;
+    align-items: center;
+    margin-left: 22%;
+    margin-right: 22%;
+    padding: 20px;
+}
+
+
+input{
+    margin:0.5rem 0;
+    border: none;
+    border-bottom: 1px solid #393939;
+    background-color:rgba(240, 248, 255, 0);
+}
+
+#Sbutton{
+    background-color: rgb(137, 43, 226);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    font-size: small;
+    border-radius:20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#Sbutton:hover {
+    background-color: #0056b3;
+}
+
+.frm input,
+.frm label {
+  margin-top: 10px;
+}
+
+.frm{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+.frm img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+.frm h5 {
+    text-align: justify;
+}
+
+
+.frm p{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+
+.cmp{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.frm label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+  
+.frm input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.icon-and-content {
+    display: flex;
+    flex-direction:column;
+}
+
+.icn {
+    display: flex;
+    align-items:flex-start;
+}
+  
+.icn img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.password-toggle {
+    position:relative;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #000000;
+  }
+
+
+
+
+  /* Medium devices (laptops) */
+@media only screen and (max-width: 992px) {
+    .cmp{
+        flex-direction:column-reverse;
+    }
+
+    .frm {
+        padding: 2px;
+    }
+
+    .Register{
+        font-size: 10px;
+    }
+    .frm h5 {
+        font-size:small;
+    }
+
+    .frm img {
+        width: 15px;
+        height: 15px;
+    }
+
+  }
+
+
+  /* Extra small devices (phones) */
+@media only screen and (max-width: 576px) {
+    .Register{
+        font-size: 1opx;
+    }
+
+
+    .frm h5 {
+        font-size:medium;
+    }
+
+    .frm {
+        padding: 10px;
+    }
+
+    .frm img {
+        width: 20px;
+        height: 20px;
+        margin-right: 1px;
+    }
+
+    .frm label {
+        flex-direction: row;
+    }
+
+    h1{
+        margin-bottom: 5px;
+    }
+
+    #Sbutton{
+        padding: 5px 20px;
+        font-size:x-small;
+        border-radius:20px;
+        cursor: pointer;
+        margin-top: 2px;
+    }
+
+    .frm {
+        padding: 0px;
+      }
+    
+    .input-icon .icon {
+        left: 5px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 420px) {
+    .Register{
+        font-size: 8px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .frm h5 {
+        font-size:small;
+    }
+
+    .frm img {
+        width: 15px;
+        height: 15px;
+        margin-right: 1px;
+    }
+
+    h1{
+        margin-bottom: 0px;
+    }
+
+    #Sbutton{
+        padding: 3px 20px;
+        font-size:x-small;
+        border-radius:20px;
+        cursor: pointer;
+        margin-top: 2px;
+    }
+
+    .frm {
+        padding: 2px;
+      }
+    
+    .input-icon .icon {
+        left: 5px;
+    }
+}

@@ -1,0 +1,10 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://w0.peakpx.com/wallpaper/235/214/HD-wallpaper-frozen-mountain-lake.jpg);
+    background-size: cover;
+    position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+    backdrop-filter:blur(500px);
+}
